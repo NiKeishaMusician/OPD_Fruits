@@ -10,3 +10,4 @@ if (isset($_GET['search']) && $_GET['search'] !== '') {
 $fruits = $db->query($query, $params)->fetchAll();
 
 require "views/posts/index.view.php";
+?>

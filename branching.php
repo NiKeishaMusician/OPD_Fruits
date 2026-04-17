@@ -1,4 +1,4 @@
 <?php
 require "functions.php";
-$x = $y ?? "Bruh";
+$x = $y ?? "Rozīne";
 ?>

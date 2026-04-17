@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $errors = [];
     
     if (!Validator::string($_POST["name"], 2, 40)) {
-        $errors["name"] = "Nosaukumam jābūt no 2 līdz 40 rakstzīmēm.";
+        $errors["name"] = "Nosaukumam jābūt no 2 līdz 40 rakstzīmēm!";
     }
 
     if (empty($errors)) {
@@ -29,3 +29,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 
 require "views/posts/edit.view.php";
+?>

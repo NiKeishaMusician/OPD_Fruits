@@ -1,5 +1,6 @@
 <?php
 $customStyles = "story.css";
-$pageTitle = "Emuārs - par mums";
-$title = "Chatins";
+$pageTitle = "Augļi - par augļiem";
+$title = "Auglīši";
 require "./views/story.view.php";
+?>

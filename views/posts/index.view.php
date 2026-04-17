@@ -2,6 +2,21 @@
 <?php require "views/components/navbar.php"; ?>
 <h1>Visi augļi</h1>
 
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Augļu saraksts</title>
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    </body>
+</html>
+
 <form>
     <input type="text" name="search" placeholder="Meklē" value="<?= $_GET['search'] ?? '' ?>">
     <button>Meklēt</button>

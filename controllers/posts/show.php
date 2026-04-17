@@ -12,3 +12,4 @@ if(!$fruit){
     redirectIfNotFound();
 }
 require "views/posts/show.view.php";
+?>
